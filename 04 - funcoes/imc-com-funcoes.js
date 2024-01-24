@@ -1,3 +1,23 @@
+/*
+
+function incrementarJuros(valor, percentualJuros) {
+    const valorDeAcrescimo = (percentualJuros / 100) * valor;
+    return valor + valorDeAcrescimo
+}
+
+console.log(incrementarJuros(100, 10));
+console.log(incrementarJuros(100, 15)); 
+console.log(incrementarJuros(100, 20)); 
+
+function calcularJuros(){
+}
+function main(){
+    console.log(`Programa principal`)
+    calcularJuros();
+
+}
+main();
+*/
 
 function calcularImc(peso, altura) {
     return peso / Math.pow(altura, 2);
@@ -21,7 +41,8 @@ function classificarImc(imc) {
 (function () {
     const peso = 75;
     const altura = 1.75;
-    
+
     const imc = calcularImc(peso, altura);
     console.log(classificarImc(imc));
 })();
+ 
